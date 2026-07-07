@@ -1,5 +1,5 @@
 # fasten-timer
-Minimalist fasting timer in Webbrowser (also as a Progressive Web App). Track your fasting periods, adjust the start time retroactively, and use the timer locally in your browser. No login, no cloud—your data remains saved until you stop. A "vibe-coding" project built with Google Gemini.
+Minimal fasting timer running in the browser and installable as a Progressive Web App (PWA). Track your fasting periods, adjust the start time retroactively, and keep your data stored locally. No login, no cloud — your data remains available until you stop the timer. A vibe-coding project built with Google Gemini.
 
 ## Credits
 - Icons by Freepik / Flaticon
