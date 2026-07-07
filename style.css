@@ -1,0 +1,77 @@
+/* Grundlegendes Layout */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+header, main {
+    margin-bottom: 20px;
+}
+
+/* Interaktive Elemente */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+label, input {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Phasen-Anzeige */
+.phase {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Markierung der aktuellen Fastenphase */
+.current {
+    background-color: #ffeb3b;
+}
+
+/* Timer-Display */
+#timer-display {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Styling der Zeitwerte - IDs hinzugefügt für gezielte JS-Ansteuerung */
+.timer-number,
+#hours,
+#minutes,
+#seconds {
+    color: green;
+    font-weight: bold;
+}
+
+/* Eingabe-Sektion */
+#input-section {
+    margin-bottom: 20px;
+}
+
+/* Container für die Erklärungen */
+#phases {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 885px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer-Styling */
+footer {
+    font-size: 0.9em;
+    margin-top: 40px;
+    color: #555;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}

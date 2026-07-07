@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Intervall-Fasten Timer</title>
+    <meta name="description" content="Ein Fasten-Timer zur Visualisierung der körperlichen Prozesse während des 16:8 Intervallfastens.">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="icon-256.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Intervall-Fasten Timer</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <button onclick="startTimer()">Start Timer</button>
+            <button onclick="resetTimer()">Reset Timer</button>
+        </div>
+
+        <div id="input-section">
+            <label for="last-meal-datetime">Optional: Datum und Uhrzeit der letzten Nahrungsaufnahme eingeben.</label>
+            <input type="datetime-local" id="last-meal-datetime">
+        </div>
+        
+        <div id="timer-display">
+            Du fastest bereits <span id="hours" class="timer-number">0</span> Stunden <span id="minutes" class="timer-number">0</span> Minuten <span id="seconds" class="timer-number">0</span> Sekunden!
+        </div>
+
+        <div id="phases">
+            <div id="phase-1" class="phase"><i>0 bis 0,5h nach dem Essen:</i><br><b>Kohlenhydratverwertung</b> - Insulin wird aus der Bauchspeicheldrüse ins Blut ausgeschüttet (der Blutzuckerspiegel steigt), um die Aufnahme von Glukose in die Zellen zu ermöglichen.</div>
+            <div id="phase-2" class="phase"><i>0,5h bis 1h nach dem Essen:</i><br><b>Insulinwirkung</b> - Der Blutzuckerspiegel sinkt wieder, da die Körperzellen den Zucker (Glukose) aus dem Blut aufnehmen.</div>
+            <div id="phase-3" class="phase"><i>1h bis 4h nach dem Essen:</i><br><b>Blutzuckerstabilisierung</b> - Der Blutzuckerspiegel normalisiert sich wieder auf sein normales Niveau. Überschüssige Glukose wird in Leber und Muskeln als Glykogen gespeichert oder in Fett umgewandelt.</div>
+            <div id="phase-4" class="phase"><i>4h bis 8h nach dem Essen:</i><br><b>Fettverbrennung</b> - Die Glykogenspeicher beginnen sich zu leeren. Der Körper beginnt, Fettreserven zu mobilisieren und in Fettsäuren aufzuspalten, die als Energiequelle dienen.</div>
+            <div id="phase-5" class="phase"><i>8h bis 12h nach dem Essen:</i><br><b>Ketogenese</b> - Bei anhaltend niedrigem Insulinspiegel und geringen Kohlenhydratreserven verstärkt der Körper die Fettverbrennung. Die Leber wandelt Fettsäuren in Ketonkörper um, die als alternative Energiequelle für Gehirn und andere Organe dienen.</div>
+            <div id="phase-6" class="phase"><i>Ab 12h nach dem Essen:</i><br><b>Autophagozytose</b> - Der Körper baut alte und beschädigte Zellbestandteile ab und recycelt sie, um Energie zu gewinnen und die Zellerneuerung zu fördern. Auch ermöglicht die Autophagie den intrazellulären Abbau von Viren, Bakterien und Fremdproteinen.</div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="https://www.flaticon.com/de/kostenlose-icons/intermittierende-fasten" target="_blank" title="intermittierende-fasten Icons">Intermittierende-fasten Icons erstellt von Freepik - Flaticon</a></p>
+        <p>(c) 2026 by <a href="https://www.martin-roeder.net/" target="_blank">Martin Röder</a> | <a href="https://martin-roeder.net/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a> | <a href="https://martin-roeder.net/impressum/" target="_blank">Impressum</a></p>
+    </footer>
+	 
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "name": "Fasten-Timer by Martin Röder",
+  "short_name": "Fasten Timer",
+  "description": "Ein Fasten-Timer zur Visualisierung der körperlichen Prozesse während des 16:8 Intervallfastens.",
+  "id": "/fasten-timer/",
+  "start_url": "index.html",
+  "scope": "/fasten-timer/",
+  "lang": "de-DE",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "categories": ["lifestyle", "health", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "626x754",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Die mobile Ansicht des Fasten-Timers"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fasten jetzt starten",
+      "short_name": "Start",
+      "url": "index.html",
+      "description": "Öffnet den Timer direkt zum Starten",
+      "icons": [{ "src": "icon-128.png", "sizes": "128x128" }]
+    }
+  ]
+}
