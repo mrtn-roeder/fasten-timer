@@ -2,10 +2,12 @@
 
 ## Development approach
 
-This project was created as an AI-assisted learning project.
+This project was developed as an AI-assisted open-source project.
 
-AI tools were used for brainstorming, programming assistance, debugging and documentation.
+AI tools were used for brainstorming, research, programming assistance, debugging and documentation.
 
-The idea, feature decisions, project direction and final responsibility remain with the project author.
+The project idea, feature decisions, architecture choices and final responsibility remain with the project author.
 
-The goal was to learn by building a useful Progressive Web App while exploring AI-assisted development workflows.
+AI is used as a development tool to accelerate experimentation, learning and implementation.
+
+The goal is to create useful, understandable and maintainable software while being transparent about the development process.
